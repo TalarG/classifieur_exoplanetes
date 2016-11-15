@@ -1,13 +1,13 @@
 # classifieur_exoplanetes
 # ligne de commande pour lancer le projet:
-# ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp"  --class com.sparkProject.JobML /Users/tg104460/Downloads/tp_spark#/target/scala-2.11/tp_spark-assembly-1.0.jar>output
++ ./spark-submit --conf spark.eventLog.enabled=true --conf spark.eventLog.dir="/tmp"  --class com.sparkProject.JobML /Users/tg104460/Downloads/tp_spark/target/scala-2.11/tp_spark-assembly-1.0.jar>output
 
 # Le fichier de sortie est "output"
 
 #Resultat de l'execution
 #
 #+--------------------+-----+----------+
-#|            features|label|prediction|
++|            features|label|prediction|
 #+--------------------+-----+----------+
 #|[4.13443005,1.061...|  0.0|       0.0|
 #|[6.029301321,5.36...|  0.0|       0.0|
