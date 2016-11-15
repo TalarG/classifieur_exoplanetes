@@ -110,7 +110,7 @@ object JobML {
 
     // Afficher un score permettant d’évaluer la pertinence du modèle sur les données test.
     model.transform(testData).groupBy("label", "prediction").count.show()
-    println("La précision de notre modèle est: %.4f".format(bineval))
+    println("La précision de notre modèle est: %.3".format(bineval))
 
 
     // C) Sauvegarde du modèle
